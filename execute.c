@@ -17,12 +17,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				{"nop", mn_nop},
 				{"sub", mn_sub},
 				{"div", mn_div},
-				{"mul", mn_mul},
-				{"mod", mn_mod},
 				{"pchar", mn_pchar},
-				{"pstr", mn_pstr},
-				{"rotl", mn_rotl},
-				{"rotr", mn_rotr},
 				{"queue", mn_queue},
 				{"stack", mn_stack},
 				{NULL, NULL}
